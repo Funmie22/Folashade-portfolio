@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 .hero {
   background: url('WhatsApp\ Image\ 2025-08-29\ at\ 19.13.43_2fbeeeda.jpg') no-repeat center center/cover;
-  filter: brightness(120%);
+  filter: brightness(140%);
   background-color: #EFEEEC;
   height: 100vh;
   display: flex;
@@ -82,6 +82,7 @@ nav ul li a:hover {
 .name-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 }
 .fullName {
@@ -148,7 +149,7 @@ section {
 }
 
 .info-img {
-  height: 400px;
+  height: 500px;
   border-radius: 50%;
 }
 
@@ -453,9 +454,6 @@ footer {
     margin: 0 2px;
     padding: 0;
   }
-}
-
-
   .hero {
     background: url('WhatsApp\ Image\ 2025-08-29\ at\ 19.13.43_2fbeeeda.jpg') no-repeat center center/cover;
     filter: brightness(100%);
