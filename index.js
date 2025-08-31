@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector("nav ul");
 
@@ -7,3 +8,4 @@
       ? '<i class="fas fa-times"></i>'  
       : '<i class="fas fa-bars"></i>'; 
   });
+});
